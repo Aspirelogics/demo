@@ -1,0 +1,159 @@
+body {
+    background-color: #eee;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+.welcome{ max-width:500px; margin:0 auto 0; background:#fff; border:1px solid #ccc; padding:30px; text-align:center}
+
+.fos_user_registration_register{
+   width:450px;
+   padding:30px;
+   margin:40px auto;
+   background: #FFF;
+   border-radius: 10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+   -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+
+.fos_user_registration_register label{
+   display: block;
+   font: 13px Arial, Helvetica, sans-serif;
+   color: #888;
+   margin-bottom: 15px;
+}
+.fos_user_registration_register input[type="text"],
+.fos_user_registration_register input[type="date"],
+.fos_user_registration_register input[type="datetime"],
+.fos_user_registration_register input[type="email"],
+.fos_user_registration_register input[type="number"],
+.fos_user_registration_register input[type="search"],
+.fos_user_registration_register input[type="time"],
+.fos_user_registration_register input[type="url"],
+.fos_user_registration_register input[type="password"],
+.fos_user_registration_register textarea,
+.fos_user_registration_register select {
+   display: block;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   width: 100%;
+   padding: 8px;
+   border-radius: 6px;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border: 2px solid #fff;
+   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+
+.fos_user_registration_register input[type="button"], 
+.fos_user_registration_register input[type="submit"]{
+   background: #2A88AD ;
+   padding: 8px 20px 8px 20px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   color: #fff;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+   font: normal 30px 'Bitter', serif;
+   -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+   -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+   border: 1px solid #257C9E ;
+   font-size: 15px;
+   margin-top:20px;
+}
+.fos_user_registration_register input[type="button"]:hover, 
+.fos_user_registration_register input[type="submit"]:hover{
+   background: #2A6881 ;
+   -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+   -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+form{
+   width:450px;
+   padding:30px;
+   margin:40px auto;
+   background: #FFF;
+   border-radius: 10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+   -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+
+form label{
+   display: block;
+   font: 13px Arial, Helvetica, sans-serif;
+   color: #888;
+   margin-bottom: 15px;
+}
+form input[type="text"],
+form input[type="date"],
+form input[type="datetime"],
+form input[type="email"],
+form input[type="number"],
+form input[type="search"],
+form input[type="time"],
+form input[type="url"],
+form input[type="password"],
+form textarea,
+form select {
+   display: block;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   width: 100%;
+   padding: 8px;
+   border-radius: 6px;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border: 2px solid #fff;
+   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+
+form input[type="button"], 
+form input[type="submit"]{
+   background: #2A88AD ;
+   padding: 8px 20px 8px 20px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   color: #fff;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+   font: normal 30px 'Bitter', serif;
+   -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+   -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+   border: 1px solid #257C9E ;
+   font-size: 15px;
+}
+form input[type="button"]:hover, 
+form input[type="submit"]:hover{
+   background: #2A6881 ;
+   -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+   -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
